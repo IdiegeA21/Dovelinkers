@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en" class="relative">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dove Linker</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/c9ed9987f0.js" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <!-- <link rel="stylesheet" href="./assets/styles/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="./assets/styles/style.css">    -->
+    <!-- original -->
+    <link rel="stylesheet" href="./assets/styles/home.css">
+    <link rel="stylesheet" href="./assets/styles/responsive.css">
+</head>
+
+<body class="body roboto relative">
+    <div class="dover w-100">
+
+        <header class="c-header box-shadow">
+            <div class="c-ad d-flex pd-5">
+                <div class="rider_alert">
+                    <p>
+                        Are you a rider?? sign up now to connect with your customers
+                    </p>
+                </div>
+                <div class="sign_in">
+                    <a href="#" class="link">Become a Rider
+                        <span class="arrow">
+                            &#11162;
+                        </span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="c-header_main pd-4 d-flex">
+                <a class="navbrand d-flex" href="#">
+                    <img class="logo" src="./assets/icons/logoFinal.png" alt="Dove linker logo" />
+                </a>
+                <nav class="navbar relative" id="menu-nav">
+                    <ul>
+                        <li class="navlist link"><a href="#" class="nav-link ">Home</a></li>
+                        <li class="navlist link"><a href="#" class="nav-link">Services</a></li>
+                        <li class="navlist link"><a href="#" class="nav-link">Find a Rider</a></li>
+                        <li class="navlist link"><a href="#" class="nav-link">About us</a></li>
+                    </ul>
+                </nav>
+
+                <div class="nav-login" id="menu-cta">
+                    <form class="nav-search relative" action="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none"
+                            role="img" class="icon nav-search-icon absolute">
+                            <path
+                                d="M1.5 7.75C1.5 9.4076 2.15848 10.9973 3.33058 12.1694C4.50269 13.3415 6.0924 14 7.75 14C9.4076 14 10.9973 13.3415 12.1694 12.1694C13.3415 10.9973 14 9.4076 14 7.75C14 6.0924 13.3415 4.50269 12.1694 3.33058C10.9973 2.15848 9.4076 1.5 7.75 1.5C6.0924 1.5 4.50269 2.15848 3.33058 3.33058C2.15848 4.50269 1.5 6.0924 1.5 7.75V7.75Z"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            </path>
+                            <path d="M12.814 12.8132L15.5 15.4999" stroke="currentColor" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+
+                        <input class="nav-search-input" type="text" name="q" placeholder="Search..." autocomplete="off"
+                            value="">
+
+                    </form>
+
+                    <a class="nav-log" href="./session/new">Log in</a>
+                    <a class="nav-signup" href="./signup/new">Sign up</a>
+
+                </div>
+
+                <div id="menu-icon1" class="menu-icon">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </header>
+
+        <main class="dove relative">
+            <section class="dove1" id="dove-1">
+
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide slide slide1 relative">
+                            <div class="carousel-item pd-4 roboto">
+                                <h2><span class="shadow-blk">#1</span> in Bridging the Gap to <span
+                                        class="shadow-blk">Dispatch</span> Services</h2>
+                                <p class="shadow-blk">Connecting you with reliable and professional dispatch riders for
+                                    all your delivery
+                                    needs. Whether it's a small package or a large shipment, we've got you covered.</p>
+                                <a href="#" class="link cta cta-blk">Let's Help You Deliver
+                                    <span class="arrow">
+                                        &#11162;
+                                    </span>
+                                </a>
+                                <h6 class="present-location roboto d-flex a-center shadow-wht">
+                                    <i class="fa-solid fa-location-dot red"></i>
+                                    Currently Serving Calabar, Nigeria
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slide slide2 relative">
+                            <div class="video-background">
+                                <video autoplay muted id="myVideo">
+                                    <source src="./assets/videos/vid4.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                                <script>
+                                    document.addEventListener("DOMContentLoaded", function () {
+                                        const video = document.getElementById("myVideo");
+
+                                        video.addEventListener("ended", function () {
+                                            setTimeout(function () {
+                                                video.play();
+                                            }, 3000);
+                                        });
+                                    });
+
+                                </script>
+                            </div>
+                            <div class="carousel-item pd-4 mg-center">
+                                <h2 class="mg-center shadow-blk">Get Your Packages <span>Delivered</span> Fast</h2>
+                                <p class="mg-center">Our dispatch riders are always on the move, ensuring your packages
+                                    arrive on time,
+                                    every time. Experience lightning-fast delivery services that you can count on.</p>
+                                <a href="#" class="cta-wht mg-center">Book a Delivery Now</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slide slide3 relative">
+                            <div class="carousel-item pd-4 mg-center">
+                                <h2 class="mg-center">Your <span>Packages</span> are in Safe Hands</h2>
+                                <p class="mg-center">We prioritize the safety and security of your deliveries. Our
+                                    professional riders are
+                                    trained to handle your packages with utmost care, ensuring they reach their
+                                    destination intact.</p>
+                                <a href="#" class="cta-wht mg-center">Learn More About Us</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slide slide4 relative">
+                            <div class="video-background">
+                                <video autoplay muted id="myVideo2">
+                                    <source src="./assets/videos/vid2.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                                <script>
+                                    document.addEventListener("DOMContentLoaded", function () {
+                                        const video = document.getElementById("myVideo2");
+
+                                        video.addEventListener("ended", function () {
+                                            setTimeout(function () {
+                                                video.play();
+                                            }, 6000);
+                                        });
+                                    });
+
+                                </script>
+                            </div>
+                            <div class="carousel-item pd-4 v-content mg-right relative">
+                                <h2 class="mg-right">Connect with <span>Reliable</span> Riders</h2>
+                                <p class="mg-right">Finding a trustworthy dispatch rider has never been easier. Our
+                                    platform connects you
+                                    with vetted and reliable riders ready to deliver your packages swiftly and securely.
+                                </p>
+                                <a href="#" class="cta-wht mg-right">Find a Rider</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+
+
+            </section>
+
+            <div class="dove1-end d-flex pd-4 a-center h-100 bg-white relative">
+                <div class="montserat  d-flex">
+                    <div class="d1-end">
+                        <img src="./assets/images/connect3.jpg" alt="Connect image.png">
+                    </div>
+                    <div class="end-text">
+                        <h5>We are all about</h5>
+                        <h2>Connecting You to Reliable Delivery Services</h2>
+                        <p>
+                            Discover seamless delivery solutions with our professional dispatch riders. From
+                            small packages to large shipments, we ensure your items reach their destination
+                            swiftly and safely.
+                        </p>
+                        <a href="#" class="link cta cta-blk">Learn More
+                            <span class="arrow">
+                                &#11162;
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="smalltalks relative montserat">
+                <div class="smt-content">
+                    <section class="talk d-flex pd-4 a-center">
+                        <div class="talk-text">
+                            <h2 class="h2-head">The Best Riders for Your Every Need</h2>
+                            <p class="h2-p">
+                                With DoveLinkers all over the city, <br />
+                                there’s always someone nearby to handle your deliveries, big or small.
+                            </p>
+                        </div>
+                        <div class="talk-img">
+                            <img src="./assets/images/talk1.jpg" alt="Rider1 image" class="img img-border" />
+                        </div>
+                    </section>
+                    <section class="talk d-flex pd-4 a-center">
+                        <div class="talk-img">
+                            <img src="./assets/images/talk1.jpg" alt="Rider1 image" class="img img-border" />
+                        </div>
+                        <div class="talk-text">
+                            <h2 class="h2-head">Expert Riders, Ready and Reliable</h2>
+                            <p style="margin-bottom: 3rem;" class="h2-p">Once, they brought joyrides and
+                                adventures.<br />
+                                Now, they bring your essentials and surprises right to your door.
+                            </p>
+                            <a href="#" class="link cta cta-wht btn-border btn-brown">
+                                Let Dove Help You Deliver!
+                                <span class="arrow">
+                                    &#11162;
+                                </span>
+                            </a>
+                        </div>
+                    </section>
+                    <section class="talk d-flex pd-4 a-center">
+                        <div class="talk-text">
+                            <h2 class="h2-head">Got a bike?</h2>
+                            <p style="margin-bottom: 3rem;" class="h2-p">
+                                Are you a bike owner looking to boost your income? <br />
+                                Join the DoveLinker Team! Partner with us to maximize your
+                                earning potential and be part of a dynamic delivery network.
+                            </p>
+                            <a href="#" class="link cta cta-wht btn-border btn-brown">
+                                Partner with Us Today!
+                                <span class="arrow">
+                                    &#11162;
+                                </span>
+                            </a>
+                        </div>
+                        <div class="talk-img">
+                            <img src="./assets/images/talk1.jpg" alt="Rider1 image" class="img img-border" />
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+
+            <div class="dove4 bg-primary relative">
+                <div class="serv-type d-flex a-center pd-4 montserat">
+                    <div class="serv">
+                        <a href="#" previewlistener="true">
+                            <img src="https://cdn.prod.website-files.com/5f08770cdf60e2d5e1ec00d4/624cc0a7f305ab3126beb362_For%20Businesses.jpg"
+                                alt="For business" class="img img-border">
+                        </a>
+                        <div>
+                            <div class="text-17">For Businesses</div>
+                            <p class="title-text">Spend time focusing on your business while the pros handle
+                                your delivery needs. Deliver More with Dispatch.
+                            </p>
+                            <a href="#" class="link cta cta-blk btn-border-dark br-10 btn-padding"
+                                previewlistener="true">
+                                Learn&nbsp;More
+                            </a>
+                        </div>
+                    </div>
+                    <div class="serv">
+                        <a href="#" previewlistener="true">
+                            <img src="https://cdn.prod.website-files.com/5f08770cdf60e2d5e1ec00d4/635ae0dd7fca1651b2831972_For%20Drivers%20Webpage%20Image.png"
+                                loading="lazy" alt="" class="img img-border">
+                        </a>
+                        <div>
+                            <div class="text-17">For Drivers</div>
+                            <p class="title-text">Be your own boss as a trusted independent contractor. Join a
+                                national community of dependable drivers.
+                            </p>
+                            <a href="#" class="link cta cta-blk btn-border-dark br-10 btn-padding"
+                                previewlistener="true">Learn&nbsp;More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dove4b bg-primary-dark montserat pd-4">
+                <div class="sec-header j-center">
+                    <h2 class="h2-head text-30">
+                        Powering Deliveries as a Service <span style="color: brown;">(DaaS)</span>
+                    </h2>
+                    <p class="title-text h2-p">
+                        DoveLinker fuels DaaS (Deliver as a Service) <br />
+                        DoveLinker empowers you to streamline your daily delivery operations all in
+                        one place. With a variety of delivery options,
+                        you'll find the perfect solution to fit your business needs.
+                    </p>
+                </div>
+                <div class="d4-lists d-flex  pd-4">
+                    <section class="d4-list">
+                        <a href="#" previewlistener="true">
+                            <img src="https://cdn.prod.website-files.com/5f08770cdf60e2d5e1ec00d4/63adc89355eda70bf82d7bd1_Marketplace-p-500.png"
+                                loading="lazy" alt="" class="img img-border">
+                        </a>
+                        <div>
+                            <div class="text-17">Fast and Reliable Service</div>
+                            <p class="title-text">
+                                Guaranteed prompt pickups and deliveries,
+                                with a focus on reliability and customer satisfaction.
+                            </p>
+                        </div>
+                    </section>
+                    <section class="d4-list">
+                        <a href="#" previewlistener="true">
+                            <img src="https://cdn.prod.website-files.com/5f08770cdf60e2d5e1ec00d4/63adc891a2e57b6025d5074d_Connect-p-500.png"
+                                loading="lazy" alt="" class="img img-border">
+                        </a>
+                        <div>
+                            <div class="text-17">Wide Network of Riders</div>
+                            <p class="title-text">
+                                Access to a large network of verified dispatch riders,
+                                ensuring quick and efficient service across the city.
+                            </p>
+                        </div>
+                    </section>
+                    <section class="d4-list">
+                        <a href="#" previewlistener="true">
+                            <img src="https://cdn.prod.website-files.com/5f08770cdf60e2d5e1ec00d4/63adc891a6bbf6270d252e2f_Integrations-p-500.png"
+                                loading="lazy" alt="" class="img img-border">
+                        </a>
+                        <div>
+                            <div class="text-17">Seamless Integration</div>
+                            <p class="title-text">
+                                Easy-to-use platform with options for direct
+                                communication and detail sharing with recipients, enhancing customer experience.
+                            </p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+
+
+            <section id="dove-3" class="dove3 bg-primary montserat">
+                <div class="d-flex h-100 pd-4 feature">
+                    <div class="feature-text">
+                        <h5 class="h5">Our Features</h5>
+                        <h1 class="">We Are Trusted Dispatch Company in Nigeria</h1>
+                        <div class="d-flex ms-4 a-center">
+                            <i class="fa-solid fa-route red feature-icon"></i>
+                            <div>
+                                <h5 class="text-17">Multiple Delivery Options</h5>
+                                <p class="title-text-light">
+                                    Choose from a variety of delivery options to suit your specific
+                                    needs, whether it's a quick local drop-off or a more extensive
+                                    logistical operation like bulk deliveries or multi-stop routes.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex ms-4 a-center">
+                            <i class="fa-solid fa-truck-fast red feature-icon"></i>
+                            <div>
+                                <h5 class="text-17">On Time Delivery</h5>
+                                <p class="title-text-light">
+                                    We pride ourselves on our punctuality. Our riders are committed
+                                    to delivering your packages right on schedule, every time.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex ms-4 a-center">
+                            <i class="fa-solid fa-headphones red feature-icon"></i>
+                            <div>
+                                <h5 class="text-17">24/7 Telephone Support</h5>
+                                <p class="title-text-light">
+                                    Our dedicated support team is available around the clock to assist
+                                    you with any queries or issues, ensuring a smooth delivery experience.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feature-img">
+                        <img class="w-100 h-100 img" src="./assets/images/alt-transformed.jpeg" alt="Features image">
+                    </div>
+                </div>
+                <div class="services pd-4" style="margin-top: 7rem;">
+                    <div class="delivery text-center">
+                        <h1 class="h1">Deliveries Tailored to Your Needs</h1>
+                        <p class="title-text">If it doesn't fit in our bags, we have a bigger option ready.</p>
+                        <div class="delivery-images d-flex">
+                            <div class="delivery-option">
+                                <img class="img br-10" src="./assets/images/slide1.png" alt="Motorcycle Delivery">
+                                <p class="title-text-light">Motorcycles for Quick Deliveries</p>
+                                <a href="#" class="link cta cta-blk btn-border-dark br-10" previewlistener="true">Order
+                                    now
+                                    <span class="arrow">
+                                        &#11162;
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="delivery-option">
+                                <img class="img br-10" src="./assets/images/slide1.png" alt="Van Delivery">
+                                <p class="title-text-light">Vans for Larger Deliveries</p>
+                                <a href="#" class="link cta cta-blk btn-border-dark br-10" previewlistener="true">Order
+                                    now
+                                    <span class="arrow">
+                                        &#11162;
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <section id="dove-4" class="partner_with_us bg-fixed">
+                <div class="partner-container h-100 pd-4">
+                    <h1 class="h1 text-center">Partner With Us</h1>
+                    <p class="text-17 text-center montserat">Increase your earnings by <span
+                            style="color: brown;">2x</span>.</p>
+                    <p class="title-text text-center montserat">
+                        Double your reach and revenue with us. Scale your business effortlessly!
+                    </p>
+                    <div class="d-flex partner montserat">
+                        <div class="partner-content">
+                            <div class="partner-img">
+                                <img src="./assets/images/del2.jpeg" alt="partner_logistics" class="img br-10">
+                            </div>
+                            <div class="text-17">Join Our Network as a Logistics Company</div>
+                            <p class="partner-text title-text-light">
+                                Expand your reach and increase your earnings by partnering with DoveLinker. <br>
+                                Register your logistics company with us and
+                                tap into a larger customer base while enhancing your service delivery.
+                            </p>
+                            <a href="#" class="link cta cta-blk btn-border btn-brown">Become a Partner Today</a>
+                        </div>
+                        <div class="partner-content">
+                            <div class="partner-img">
+                                <img src="./assets/images/del2.jpeg" alt="partner_business" class="img br-10">
+                            </div>
+                            <div class="text-17">Business Partnerships</div>
+                            <p class="partner-text title-text-light">
+                                Are you a business looking to speed up your product deliveries? <br>
+                                Register with DoveLinker to enhance your delivery efficiency and
+                                get your products to customers faster than ever
+                            </p>
+                            <a href="#" class="link cta cta-blk btn-border btn-brown">Register Your Business</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial pd-4 montserat" id="testimonial">
+                    <h5 class="h5 text-center">Partner Testimonial</h5>
+                    <h1 class="h1-montserat text-center">What Our Partners Are Saying</h1>
+                    <div class="testimonial-container">
+                        <div class="slider">
+                            <div class="slide-row" id="slide-row">
+                                <div class="slide-col relative">
+                                    <div class="content absolute">
+                                        <p>Zen Doan is a business analyst, entrepreneur and media proprietor, and
+                                            investor. She also known as the best selling book author.</p>
+                                        <h2>Zen</h2>
+                                        <p>Author</p>
+                                    </div>
+                                    <div class="hero absolute">
+                                        <img src="https://user-images.githubusercontent.com/13468728/234031693-6bbaba7d-632c-4d7d-965f-75a76a549ce2.jpg"
+                                            alt="avatar">
+                                    </div>
+                                </div>
+
+                                <div class="slide-col relative">
+                                    <div class="content absolute">
+                                        <p>Jonathan Koletic is an American internet entrepreneur and media proprietor,
+                                            and investor. He is the founder of the multi-national technology company
+                                            Treymont.</p>
+                                        <h2>Jonathan</h2>
+                                        <p>Treymont Inc.</p>
+                                    </div>
+                                    <div class="hero absolute">
+                                        <img src="./assets/images/founder2.jpg" alt="avatar">
+                                    </div>
+                                </div>
+
+                                <div class="slide-col relative">
+                                    <div class="content absolute">
+                                        <p>Charlie Green is an European entrepreneur and media consultant, and investor.
+                                            He is the founder of the Hallmark Inc.</p>
+                                        <h2>Charlie</h2>
+                                        <p>Hallmark Inc.</p>
+                                    </div>
+                                    <div class="hero absolute">
+                                        <img src="https://user-images.githubusercontent.com/13468728/234031646-10533999-39e5-4c7b-ab54-d0299b13ce74.jpg"
+                                            alt="avatar">
+                                    </div>
+                                </div>
+
+                                <div class="slide-col relative">
+                                    <div class="content absolute">
+                                        <p>Sarah Dam is an American internet entrepreneur and media proprietor, and
+                                            investor. She is the founder of the multi-national technology company Zara.
+                                        </p>
+                                        <h2>Sarah</h2>
+                                        <p>Zara Inc.</p>
+                                    </div>
+                                    <div class="hero absolute">
+                                        <img src="./assets/images/founder.jpg" alt="founder_avatar">
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="indicator">
+                        <span class="btn-testimonial active"></span>
+                        <span class="btn-testimonial"></span>
+                        <span class="btn-testimonial"></span>
+                        <span class="btn-testimonial"></span>
+                    </div>
+                </div>
+            </section>
+
+            <section id="dove5" class="get-quote bg-primary">
+                <div class="pd-4 bg-primary quote-container d-flex">
+                    <div class="quote-intro">
+                        <h5 class="h5" style="margin-top: 1rem;">Get A Quote</h5>
+                        <h2 class="text-30 h1-montserat">Request A Free Qoute!</h2>
+                        <p class="title-text-light montserat">
+                            Need a quick estimate for your delivery? Fill out the form below to get a fast and accurate
+                            quote from DoveLinker.
+                        </p>
+                        <div class="d-flex a-center call-us">
+                            <i class="fa-solid fa-headphones red feature-icon"></i>
+                            <div class="title-text-light">
+                                <h6 class="text-17">Call for any query!</h6>
+                                <h3 class="text-primary m-0">+012 345 6789</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="quote d-flex">
+                        <div class="quote-form">
+                            <div class="form-group">
+                                <input type="text" id="pickup-location" name="pickup-location"
+                                    placeholder="Enter your pickup location" title="Enter Your pickup Location">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="dropoff-location" name="dropoff-location"
+                                    placeholder="Enter your dropoff location" title="Enter Your dropoff Location">
+                            </div>
+                            <div class="form-group">
+                                <select id="package-size" name="package-size" title="Select Item Size">
+                                    <option value="" selected>Select Item Size</option>
+                                    <option value="small">Small</option>
+                                    <option value="medium">Medium</option>
+                                    <option value="large">Large</option>
+                                    <option value="extra-large">Extra Large</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group vehicle-display">
+                            <div id="vehicle-type" class="vehicle-type">
+                                Select a package size to see the vehicle type
+                            </div>
+                        </div>
+                        <button type="submit" class="quote-button w-100">Get My Quote</button>
+                    </form>
+                </div>
+
+                <!-- Script to display vehicle type based on package size -->
+                <script>
+                    document.getElementById('package-size').addEventListener('change', function () {
+                        var vehicleType = document.getElementById('vehicle-type');
+                        switch (this.value) {
+                            case 'small':
+                                vehicleType.textContent = 'Motorbike';
+                                vehicleType.style.backgroundColor = '#007bff';
+                                break;
+                            case 'medium':
+                                vehicleType.textContent = 'Vehicle';
+                                vehicleType.style.backgroundColor = '#28a745';
+                                break;
+                            case 'large':
+                            case 'extra-large':
+                                vehicleType.textContent = 'Truck/Van';
+                                vehicleType.style.backgroundColor = '#dc3545';
+                                break;
+                            default:
+                                vehicleType.textContent = 'Select a package size to see the vehicle type';
+                                vehicleType.style.backgroundColor = '#007bff';
+                        }
+                    });
+                </script>
+
+            </section>
+
+            <section class="customer-revs bg-primary pd-4 montserat">
+                <h5 class="h5 text-center montserat">Customers review</h5>
+                <h1 class="h1-montserat text-center white-heading">Here's what our <span
+                        style="color: brown;">Customers</span> say</h1>
+                <div class="slideshow-container bg-white">
+                    <div class="mySlides">
+                        <div class="mySlidesContainer">
+                            <div class="customer-image j-center">
+                                <img src="./assets/images/founder.jpg" alt="Customer-image"
+                                    class="img relative br-cycle">
+                            </div>
+                            <q>
+                                Curabitur ligula augue, lobortis in interdum nec, dignissim vel arcu. Donec semper
+                                aliquet mattis. Curabitur convallis urna congue viverra elementum.
+                            </q>
+                        </div>
+                        <p class="author">By: <span>Joe Bloggs</span></p>
+                    </div>
+                    <div class="mySlides">
+                        <div class="mySlidesContainer">
+                            <div class="customer-image j-center">
+                                <img src="./assets/images/IMG-20240727-WA0035.jpg" alt="Customer-image"
+                                    class="img relative  br-cycle">
+                            </div>
+                            <q>
+                                Vivamus est felis, tempor sed mauris ac, malesuada sollicitudin ipsum. Etiam nec
+                                ullamcorper nibh, ac pretium sapien. Donec pharetra sollicitudin ligula, sit amet ornare
+                                nisi vestibulum et.
+                            </q>
+                        </div>
+                        <p class="author">By: <span>Omang Godswill</span></p>
+                    </div>
+                    <div class="mySlides">
+                        <div class="mySlidesContainer">
+                            <div class="customer-image j-center">
+                                <img src="./assets/images/founder2.jpg" alt="Customer-image"
+                                    class="img relative br-cycle">
+                            </div>
+                            <q>
+                                Mauris malesuada, ex at volutpat euismod, velit diam placerat lacus, eu rhoncus enim
+                                metus ultricies nisi. Mauris pharetra tristique nisl.</q>
+                        </div>
+                        <p class="author">By: <span>Akpan Fred</span></p>
+                    </div>
+
+                    <!-- Next/prev buttons -->
+                    <a class="prev">&#10094;</a>
+                    <a class="next">&#10095;</a>
+
+                </div>
+                <div class="dot-container">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+
+            </section>
+
+            <section class="section-bg relative bg-fixed montserat">
+                <div class="overlay pd-4 relative h-100 w-100">
+                    <div class="row">
+                        <div class="quote-intro d-flex align-items-center">
+                            <div class="contact-info">
+                                <h5 class="h5" style="margin-top: 1rem;">Contant Us</h5>
+                                <h2 class="contact-title h1-montserat">Have Any Questions?</h2>
+                                <p>
+                                    Whether you have a question about our services, need assistance, 
+                                    or just want to share your feedback, our team is dedicated to 
+                                    listening and providing the help you need. Feel free to reach 
+                                    out—we're here to support you at every step.
+                                </p>
+                                <ul class="contact-info">
+                                    <li>
+                                        <div class="info-left">
+                                            <i class="fas fa-mobile-alt"></i>
+                                        </div>
+                                        <div class="info-right">
+                                            <h4>+234-123-456-7890</h4>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="info-left">
+                                            <i class="fas fa-at"></i>
+                                        </div>
+                                        <div class="info-right">
+                                            <h4>support@dovelinker.com</h4>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="info-left">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                        </div>
+                                        <div class="info-right">
+                                            <h4>123 DoveLinker Street, Calabar, Nigeria</h4>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="quote d-flex align-items-center">
+                            <div class="contact-form relative">
+                                <!--Contact Form-->
+                                <form id='contact-form' method='POST'>
+                                    <input type='hidden' name='form-name' value='contactForm' />
+                                    <div class="row">
+                                        <div class="col-md-12 box-shadow-light">
+                                            <div class="form-group">
+                                                <input type="text" name="name" class="form-control" id="first-name"
+                                                    placeholder="Enter Your Name *" required="required">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 box-shadow-light">
+                                            <div class="form-group">
+                                                <input type="email" name="email" class="form-control" id="email"
+                                                    placeholder="Enter Your Email *" required="required">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-12 box-shadow-light">
+                                            <div class="form-group">
+                                                <textarea rows="3" name="message" class="form-control" id="description"
+                                                    placeholder="Enter Your Message *" required="required"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <a href="#" type="submit" class="link cta cta-wht btn-brown btn-transparent">
+                                                Send Message
+                                                <span class="arrow">
+                                                    ⮚
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+    </div>
+
+
+    <!-- Footer Start -->
+    <footer class="footer pd-5 py-5 montserat">
+        <div class="footer-container">
+
+            <div class="footer-row row g-5">
+                <div class="col">
+                    <h4 class="text-17">Address</h4>
+                    <p class="title-text-light top-10"><i class="fa fa-map-marker-alt me-3"></i>123 DoveLinker Street, Calabar, Nigeria</p>
+                    <p class="title-text-light top-10"><i class="fa fa-phone-alt me-3"></i>+234-123-456-7890</p>
+                    <p class="title-text-light top-10"><i class="fa fa-envelope me-3"></i>support@dovelinker.com</p>
+                    <div class="d-flex top-20">
+                        <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col">
+                    <h4 class="text-17 f-h4">Services</h4>
+                    <a class="link f-link" href="#">Air Freight</a>
+                    <a class="link f-link" href="#">Sea Freight</a>
+                    <a class="link f-link" href="#">Road Freight</a>
+                    <a class="link f-link" href="#">Logistic Solutions</a>
+                    <a class="link f-link" href="#">Industry solutions</a>
+                </div>
+                <div class="col">
+                    <h4 class="text-17 f-h4">Quick Links</h4>
+                    <a class="link f-link" href="#">About Us</a>
+                    <a class="link f-link" href="#">Contact Us</a>
+                    <a class="link f-link" href="#">Our Services</a>
+                    <a class="link f-link" href="#">Terms & Condition</a>
+                    <a class="link f-link" href="#">Support</a>
+                </div>
+                <div class="col">
+                    <h4 class="text-17 f-h4">Stay Updated with DoveLinker</h4>
+                    <p class="title-text-light">
+                        Sign up for our newsletter to receive the latest news, exclusive offers,
+                        and insider tips on the best delivery services in town.
+                        Join our community and never miss an update!
+                    </p>
+                    <div class="relative top-10" style="max-width: 400px;">
+                        <input class="form-control w-100" type="text" placeholder="Your email">
+                        <button type="button" class="btn-submit absolute">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="./">DoveLinkers</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        Designed By <a class="border-bottom" href="#">ID_A_22</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- home styles -->
+    <script src="./assets/js/home.js"></script>
+</body>
+
+</html>
+
+<!-- {"bg":"#E9E6E6","icon-gradient-0":"#6A4F4C",
+ "icon-gradient-1":"#A0A29B","font":"#2B2625","slogan":"#3f3a39"} -->

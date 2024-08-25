@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: ArimaKoshi-Light
+font link: https://fonts.google.com/specimen/Arima+Madurai
+font author: NDISCOVER
+font author site: http://www.ndiscovered.com/
+
+
+icon designer: Darren Dutch
+icon designer link: /dis4
+        
+{"bg-gradient-0":"#87544E","bg-gradient-1":"#87544E","icon":"#ffffff","font":"#ffffff","slogan":"#ffffff"}
+      

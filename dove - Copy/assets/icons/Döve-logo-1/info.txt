@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: fibra-light
+font link: https://www.fontspring.com/fonts/los-andes-type/fibra/fibra-light
+font author: Los Andes Type
+font author site: https://losandestype.myportfolio.com/
+Slogan Font: LindenHill-webfont.ttf
+
+icon designer: Darren Dutch
+icon designer link: /dis4
+        
+{"bg":"#E9E6E6","icon-gradient-0":"#6A4F4C","icon-gradient-1":"#A0A29B","font":"#2B2625","slogan":"#3f3a39"}
+      
